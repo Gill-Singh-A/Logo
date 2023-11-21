@@ -75,7 +75,7 @@ if __name__ == "__main__":
         data.draw_circles = False
     else:
         data.draw_circles = draw_circles
-    if not data.circles and draw_circles == True:
+    if not data.circles:
         display('-', "Please provide the Number of Circles to Draw")
         exit(0)
     else:
