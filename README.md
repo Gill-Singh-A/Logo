@@ -11,6 +11,11 @@ Modules/Packages used:
 * optparse
 * datetime
 * colorama
+<!-- -->
+Install the dependencies:
+```bash
+pip install -r requirements.txt
+```
 
 ## Input
 It takes in 5 command line arguments:
